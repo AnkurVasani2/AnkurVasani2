@@ -1,0 +1,102 @@
+.about{
+    font-family: outfit;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.head span{
+    margin-bottom: 2px;
+    font-family: outfit;
+    font-weight: 100;
+}
+
+.head h1{
+    margin-top: 2px;
+    background: rgb(208,0,15);
+    background: linear-gradient(360deg, rgba(12,4,157,1) 0%, rgba(0,212,255,1) 100%);
+    background-clip: text; 
+    color: transparent;
+}
+
+table{
+    border-spacing: 20px;
+}
+
+td{
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 300;
+    padding: 10px;
+    text-align: left;
+}
+
+.icon-text-cell {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+
+.icon-text-cell ul li {
+    margin-bottom: 10px; /* Adds space between list items, adjust the value as needed */
+}
+
+.icon-text-cell ul li:last-child {
+    margin-bottom: 0;
+}
+
+.icon-text-cell h3{
+    text-align: center;
+}
+
+.icon-text-cell .icon-details {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.image-about{
+    display: grid;
+    place-items: center;
+}
+
+.image-about img{
+    height: 250px;
+    display: grid;
+    max-width: 100%;
+    border-radius: 50px;
+    margin-top: 0;
+}
+.text-about{
+    text-align: justify;
+    margin: 2px 2% 2px 2%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .content{
+        display: flex;
+        flex-direction: row;
+    }
+    .image-about img{
+        height: 450px;
+        display: grid;
+        max-width: 100%;
+        margin: 20px 50px 20px 80px;
+    }
+    table{
+        margin:  0 20px 0 0 ;
+    }
+    .text-about{
+        width: 800px;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,162 @@
+.Hero {
+    padding-top: 20vh; /* Adjusted for better responsiveness */
+    margin: 0 auto; /* Center the Hero section */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+    gap: 2rem; /* Smaller gap for better responsiveness */
+    text-align: center; /* Center align text */
+}
+
+.image img {
+    height: 200px; /* Adjusted for better responsiveness */
+    width: 200px; /* Adjusted for better responsiveness */
+    margin: 0 auto; /* Center the image */
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 20px 0 50px #2026ee, -20px 0 50px #bb00d4; /* Reduced shadow for smaller size */
+    margin: 30%;
+}
+ 
+.text {
+    align-self: center;
+    text-align: center; /* Center text within text div */
+}
+
+.p1 {
+    font-size: 1.25rem; /* Use rem for scalable font size */
+    margin: 0;
+    text-align: left;
+}
+
+.title {
+    font-size: 2.5rem; /* Use rem for scalable font size */
+    background: linear-gradient(228deg, rgba(32, 38, 238, 1) 0%, rgba(187, 0, 212, 1) 65%);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    min-width: max-content;
+    text-align: left;
+    margin: 1px 0 0 0;
+}
+
+.p2 {
+    font-size: 2rem; /* Use rem for scalable font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Remove margin */
+    width: 70vh;
+    text-align: left;
+    justify-content: left;
+    
+}
+
+/* Increase specificity for .role class */
+.Hero .text .role {
+    background: linear-gradient(228deg, rgb(255, 251, 0) 0%, rgb(231, 152, 5) 65%);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent !important; /* Use !important to override other styles */
+    padding: 0.5rem 0; /* Use rem for scalable padding */
+    font-weight: 500;
+}
+
+.download {
+    font-size: 20px;
+}
+
+.icon {
+    margin: 0 10px 0 10px;
+    font-size: 30px;
+}
+
+.download {
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    border-radius: 50px;
+    border: none;
+}
+
+.download:hover {
+    transform: scale(1.05);
+    box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
+}
+
+.icon:hover {
+    box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    .Hero {
+        padding-top: 40vh;
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem; /* Adjust gap for larger screens */
+        left: 50%;
+    }
+
+    .image img {
+        height: 250px; /* Adjusted for larger screens */
+        width: 250px; /* Adjusted for larger screens */
+        margin-left: 20%;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .p1 {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 100px;
+        margin-bottom: 0;
+        margin-right: 10%;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-left: 100px;
+        margin-bottom: 0;
+    }
+
+    .p2 {
+        font-size: 2.5rem;
+        justify-content: left;
+        margin-right: 10%;
+        margin-left: 100px;
+        width: 90vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Hero {
+        padding-top: 15vh;
+        gap: 10rem; /* Adjust gap for larger screens */
+    }
+
+    .image img {
+        height: 350px; /* Adjusted for larger screens */
+        width: 350px; /* Adjusted for larger screens */
+        margin-left: 50%;
+    }
+
+    .p1 {
+        font-size: 2rem;
+        margin-left: 100px;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 5rem;
+        margin-left: 100px;
+    }
+
+    .p2 {
+        font-size: 3rem;
+        min-width: max-content;
+        margin-left: 100px;
+    }
+}

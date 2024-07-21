@@ -1,0 +1,111 @@
+.skill {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px; /* Ensure there's padding for smaller viewports */
+}
+
+* {
+    font-family: outfit;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    margin: 0;
+    color: #fff;
+}
+
+body {
+    margin: 2rem;
+    background-color: #212123;
+}
+
+.carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 250px;
+    max-width: 100%; /* Ensure it fits within the parent container */
+    width: 100%; /* Full width within the container */
+    height: 60vh; /* Responsive height */
+    margin: 0 auto 50px;
+}
+
+.caixa__card {
+    width: 120px; /* Responsive width */
+    height: 120px; /* Responsive height */
+    background-color: #442222;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    animation: efeitoCarrosel 8s linear infinite;
+}
+
+.logo-skill {
+    width: 35px; /* Slightly larger icons for better visibility */
+    height: 35px;
+}
+
+@keyframes efeitoCarrosel {
+    from {
+        transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        z-index: 10;
+        opacity: 1;
+    }
+    50% {
+        z-index: -10;
+    }
+    to {
+        transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        z-index: 10;
+        opacity: 1;
+    }
+}
+
+.caixa__card:hover {
+    border: solid #4466cc 3px;
+    box-shadow: 0px 0px 10px #4466cc;
+}
+
+.caixa__card.cc__1 { background: linear-gradient(-229deg, #0093E9, #80D0C7); animation-delay: -7s; }
+.caixa__card.cc__2 { background: linear-gradient(-229deg, #00DBDE, #FC00FF); animation-delay: -6s; }
+.caixa__card.cc__3 { background: linear-gradient(-229deg, #50d990, #d4d054); animation-delay: -5s; }
+.caixa__card.cc__4 { background: linear-gradient(-229deg, #cf91ff, #5782F5); animation-delay: -4s; }
+.caixa__card.cc__5 { background: linear-gradient(-229deg, #642B73, #C6426E); animation-delay: -3s; }
+.caixa__card.cc__6 { background: linear-gradient(-229deg, #D9AFD9, #97D9E1); animation-delay: -2s; }
+.caixa__card.cc__7 { background: linear-gradient(-229deg, #FBAB7E, #F7CE68); animation-delay: -1s; }
+.caixa__card.cc__8 { background: linear-gradient(-229deg, #1472ff, #A8EB12); }
+
+@media (max-width: 768px) {
+    .carrosel {
+        height: 50vh; /* Adjust height for smaller screens */
+    }
+
+    .caixa__card {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carrosel {
+        height: 60vh; /* Adjust height further for smaller screens */
+    }
+
+    .caixa__card {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo-skill {
+        width: 20px;
+        height: 20px;
+    }
+}

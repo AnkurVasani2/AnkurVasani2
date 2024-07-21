@@ -1,0 +1,127 @@
+/* Existing Navbar styles */
+
+.navbar {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    justify-content: space-between;
+    width: 97vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    padding: 10px 0;
+    height: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.nav-menu li {
+    padding: 0 15px;
+}
+
+.nav-download {
+    padding: 15px 15px;
+    border-radius: 50px;
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    margin-left: 20px; /* Margin adjusted for desktop view */
+}
+
+.nav-download:hover {
+    transform: scale(1.05);
+    box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
+}
+
+.navlogo {
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+/* Hamburger menu styles */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white; /* Color for the hamburger icon */
+    margin-left: 20px; /* Ensure some spacing from the download button */
+}
+
+/* Close button styles */
+.nav-close {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white; /* Color for the close icon */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Mobile menu styles */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: black;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 0;
+        padding: 0;
+        z-index: 1001; /* Ensure menu is above other content */
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    .nav-download {
+        margin: 20px 0; /* Center the button and space it below other items */
+        padding: 20px 40px; /* Add padding for the button in mobile view */
+        font-size: 20px; /* Adjust font size if necessary */
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-close {
+        display: block;
+    }
+}
