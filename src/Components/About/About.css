@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin: 20px;
 }
 
 .head span{
@@ -19,7 +19,7 @@
 .head h1{
     margin-top: 2px;
     background: rgb(208,0,15);
-    background: linear-gradient(360deg, rgba(12,4,157,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(228deg, rgba(32, 38, 238, 1) 0%, rgba(187, 0, 212, 1) 65%);
     background-clip: text; 
     color: transparent;
 }
@@ -81,7 +81,7 @@ td{
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1068px) {
     .content{
         display: flex;
         flex-direction: row;

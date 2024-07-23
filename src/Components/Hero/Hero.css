@@ -65,20 +65,24 @@
     font-weight: 500;
 }
 
-.download {
-    font-size: 20px;
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
 }
 
 .icon {
-    margin: 0 10px 0 10px;
+    margin: 0 15px 0 15px;
     font-size: 30px;
 }
 
 .download {
+    font-size: 20px;
     background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
     border-radius: 50px;
     border: none;
+    transition: 0.5s;
 }
 
 .download:hover {

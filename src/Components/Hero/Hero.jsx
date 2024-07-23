@@ -26,17 +26,20 @@ const Hero = () => {
             />
           </span>
         </p>
+        <div className="button">
+
         <a href={cv} download="Resume_Ankur.pdf">
           <button className="download">
             Download Resume
           </button>
         </a>
         <a className='icon' href="https://www.linkedin.com/in/ankurmvasani" target="_blank" rel="noopener noreferrer">
-          <i className="fa-brands fa-linkedin fa-beat" style={{color: "#2026ee"}}></i>
+          <i className="fa-brands fa-linkedin fa-beat" style={{color: "#043fc6"}}></i>
         </a>
         <a className='icon' href="https://github.com/ankurvasani2" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-github fa-beat"></i>
         </a>
+        </div>
       </div>
     </div>
   );

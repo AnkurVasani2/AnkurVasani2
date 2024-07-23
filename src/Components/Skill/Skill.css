@@ -33,8 +33,8 @@ body {
 }
 
 .caixa__card {
-    width: 120px; /* Responsive width */
-    height: 120px; /* Responsive height */
+    width: 150px; /* Responsive width */
+    height: 150px; /* Responsive height */
     background-color: #442222;
     position: absolute;
     display: flex;
@@ -74,14 +74,14 @@ body {
     box-shadow: 0px 0px 10px #4466cc;
 }
 
-.caixa__card.cc__1 { background: linear-gradient(-229deg, #0093E9, #80D0C7); animation-delay: -7s; }
-.caixa__card.cc__2 { background: linear-gradient(-229deg, #00DBDE, #FC00FF); animation-delay: -6s; }
-.caixa__card.cc__3 { background: linear-gradient(-229deg, #50d990, #d4d054); animation-delay: -5s; }
-.caixa__card.cc__4 { background: linear-gradient(-229deg, #cf91ff, #5782F5); animation-delay: -4s; }
-.caixa__card.cc__5 { background: linear-gradient(-229deg, #642B73, #C6426E); animation-delay: -3s; }
-.caixa__card.cc__6 { background: linear-gradient(-229deg, #D9AFD9, #97D9E1); animation-delay: -2s; }
-.caixa__card.cc__7 { background: linear-gradient(-229deg, #FBAB7E, #F7CE68); animation-delay: -1s; }
-.caixa__card.cc__8 { background: linear-gradient(-229deg, #1472ff, #A8EB12); }
+.caixa__card.cc__1 { background: linear-gradient(60deg, rgba(62,88,252,1) 0%, rgba(89,170,226,1) 87%); animation-delay: -7s; }
+.caixa__card.cc__2 { background: linear-gradient(60deg, rgba(15,45,235,1) 0%, rgb(21, 202, 5) 71%); animation-delay: -6s; }
+.caixa__card.cc__3 { background: linear-gradient(60deg, rgba(2,26,180,1) 14%, rgba(246,252,1,1) 88%); animation-delay: -5s; }
+.caixa__card.cc__4 { background: linear-gradient(190deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); animation-delay: -4s; }
+.caixa__card.cc__5 { background: linear-gradient(231deg, rgba(255,151,3,1) 20%, rgba(5,74,232,1) 80%); animation-delay: -3s; }
+.caixa__card.cc__6 { background: linear-gradient(231deg, rgba(3,131,255,1) 0%, rgba(4,63,198,1) 100%); animation-delay: -2s; }
+.caixa__card.cc__7 { background: linear-gradient(60deg, rgba(236,237,4,1) 0%, rgba(255,146,11,1) 100%); animation-delay: -1s; }
+.caixa__card.cc__8 { background: linear-gradient(60deg, rgba(26,6,97,1) 46%, rgba(183,219,251,1) 100%); }
 
 @media (max-width: 768px) {
     .carrosel {

@@ -1,0 +1,90 @@
+*{
+    font-family: outfit;
+}
+
+.head{
+    margin: 20px;
+}
+
+
+.project-text{
+    font-weight: 200;
+}
+
+
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    margin: 20px;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    border: 2px solid orange;
+    padding: 5px;
+}
+
+.project-text{
+    text-align: justify;
+    margin: 10px;
+}
+
+
+.project-btns{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-btns button{
+    flex-grow: 1;
+    margin: 0 5px 20px;
+    padding: 20px;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.project-btns button:hover{
+    transform: scale(1.05);
+    box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
+}
+
+.project-btns button:first-child {
+    margin-left: 0; 
+}
+  
+.project-btns button:last-child {
+    margin-right: 0; 
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .projects{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
