@@ -60,13 +60,13 @@
     flex-grow: 1;
     margin: 0 5px 20px;
     padding: 20px;
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-    background: linear-gradient(to right, #4A00E0, #8E2DE2);
     border-radius: 50px;
     transition: 0.5s;
 }
 
 .project-btns button:hover{
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
     transform: scale(1.05);
     box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
 }
