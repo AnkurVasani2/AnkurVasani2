@@ -20,6 +20,6 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=AnkurVasani2&icon=5&color=7)](https://visitcount.itsvg.in)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/15bec9c2-0778-4a90-9bf0-e7965bc27e0a/deploy-status)](https://app.netlify.com/sites/ankurvasani/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/375a7932-8537-4a53-bdeb-06fcdd1f7407/deploy-status)](https://app.netlify.com/sites/ankurvasani/deploys)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
