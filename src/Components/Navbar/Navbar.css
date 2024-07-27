@@ -26,10 +26,9 @@
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     padding: 0;
-    margin-left: 100px;
 }
 
 .nav-menu li {
@@ -43,7 +42,7 @@
     background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     transition: 0.5s;
     color: white;
