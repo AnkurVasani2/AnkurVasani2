@@ -1,5 +1,6 @@
 .about{
     font-family: outfit;
+    width: 100%;
 }
 
 .head{
@@ -7,13 +8,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    line-height: 30px;
 }
 
 .head span{
     margin-bottom: 2px;
-    font-family: outfit;
-    font-weight: 100;
 }
 
 .head h1{

@@ -1,0 +1,110 @@
+.about {
+    font-family: outfit;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+.head span {
+    margin-bottom: 2px;
+}
+
+.head h1 {
+    background: rgb(208,0,15);
+    background: linear-gradient(228deg, rgba(32, 38, 238, 1) 0%, rgba(187, 0, 212, 1) 65%);
+    background-clip: text;
+    color: transparent;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.about-image img {
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.about-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Center the icon and text horizontally */
+    border: 2px solid white;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.about-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the icon and text horizontally */
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.about-icon i {
+    font-size: 20px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the text horizontally */
+}
+
+.paragraph {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        padding-left: 0;
+    }
+
+    .about-boxes {
+        flex-direction: column;
+    }
+
+    .about-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
