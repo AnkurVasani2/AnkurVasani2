@@ -1,41 +1,76 @@
-*{
+* {
     font-family: outfit;
+    margin: 0;
+    padding: 0;
 }
 
-.head{
-    margin: 20px;
+/* html, body {
+    height: 100%;
+} */
+
+.head {
+    margin: 10px;
 }
 
+.project {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    margin-top: 0;
 
-.project-text{
+}
+
+.project-text {
     font-weight: 200;
 }
 
-
-
-
-.projects{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.projects {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 20px;
     justify-content: center;
+}
+
+.flip-container {
+    perspective: 1000px;
     margin: 20px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.flipper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    backface-visibility: hidden;
     border: 2px solid white;
-    border-radius: 50px;
+    background-color: #000;
+    border-radius: 20px;
     padding: 20px;
-    width: 100%;
-    height: fit-content;
-    margin: 20px;
+    box-sizing: border-box;
 }
 
-.logo{
+.front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
     width: 250px;
     height: 250px;
     border-radius: 50px;
@@ -43,20 +78,28 @@
     padding: 5px;
 }
 
-.project-text{
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    transform: rotateY(180deg);
+}
+
+.project-text {
     text-align: justify;
     margin: 10px;
 }
 
-
-.project-btns{
+.project-btns {
     font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.project-btns button{
+.project-btns button {
     flex-grow: 1;
     margin: 0 5px 20px;
     padding: 20px;
@@ -65,7 +108,7 @@
     border: 2px solid #8E2DE2;
 }
 
-.project-btns button:hover{
+.project-btns button:hover {
     background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
     transform: scale(1.05);
@@ -74,19 +117,21 @@
 }
 
 .project-btns button:first-child {
-    margin-left: 0; 
+    margin-left: 0;
 }
-  
+
 .project-btns button:last-child {
-    margin-right: 0; 
+    margin-right: 0;
 }
 
 @media only screen and (min-width: 768px) {
-    
-    .projects{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
     }
+}
 
+@media only screen and (min-width: 1024px) {
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

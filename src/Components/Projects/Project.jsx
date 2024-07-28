@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import '../Projects/Project.css';
 import chartter_logo from '../../assets/chartter_logo.png';
-import fridgemate_logo from '../../assets/fridgemate.png'
-import ankur from '../../assets/logo_full.png'
+import fridgemate_logo from '../../assets/fridgemate.png';
+import ankur from '../../assets/logo_full.png';
 
 const specificRepos = [
   { name: 'chartter', logo: chartter_logo },
-  { name:'FridgeMate', logo: fridgemate_logo},
-  { name:'AnkurVasani2', logo: ankur}
+  { name: 'FridgeMate', logo: fridgemate_logo },
+  { name: 'AnkurVasani2', logo: ankur },
+  { name: 'gitprofile', logo: ankur }
 ];
 
 const fetchGitHubProjects = async () => {
@@ -42,12 +43,18 @@ const Project = () => {
 
       <div className="projects">
         {projects.map((project) => (
-          <div className="container" key={project.id}>
-            <img src={getLogoForRepo(project.name)} alt={project.name} className='logo'/>
-            <p className='project-text'>{project.description}</p>
-            <div className="project-btns">
-              <button onClick={() => window.open(project.html_url, '_blank')}>Github</button>
-              {project.homepage && <button onClick={() => window.open(project.homepage, '_blank')}>Visit Project</button>}
+          <div className="flip-container" key={project.id}>
+            <div className="flipper">
+              <div className="front">
+                <img src={getLogoForRepo(project.name)} alt={project.name} className='logo' />
+              </div>
+              <div className="back">
+                <p className='project-text'>{project.description}</p>
+                <div className="project-btns">
+                  <button onClick={() => window.open(project.html_url, '_blank')}>Github</button>
+                  {project.homepage && <button onClick={() => window.open(project.homepage, '_blank')}>Visit Project</button>}
+                </div>
+              </div>
             </div>
           </div>
         ))}
