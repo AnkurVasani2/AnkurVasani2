@@ -8,7 +8,7 @@ const specificRepos = [
   { name: 'chartter', logo: chartter_logo },
   { name: 'FridgeMate', logo: fridgemate_logo },
   { name: 'AnkurVasani2', logo: ankur },
-  { name: 'gitprofile', logo: ankur }
+  
 ];
 
 const fetchGitHubProjects = async () => {

@@ -63,7 +63,7 @@
 }
 
 span{
-    background: linear-gradient(228deg, rgb(238, 255, 4) 0%, rgb(245, 201, 4) 65%);
+    background: linear-gradient(228deg, rgb(238, 255, 4) 0%, #f5c904 65%);
     -webkit-background-clip: text;
     background-clip: text; 
     color: transparent;

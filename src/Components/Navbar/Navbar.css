@@ -29,10 +29,14 @@
     font-size: 20px;
     cursor: pointer;
     padding: 0;
+    color: white;
 }
 
 .nav-menu li {
     padding: 0 15px;
+}
+.nav-menu li a{
+    color: white;
 }
 
 .nav-download {
