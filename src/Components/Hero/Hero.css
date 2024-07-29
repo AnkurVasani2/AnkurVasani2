@@ -93,10 +93,21 @@ span{
     margin: 0 10px 0 10px;
     font-size: 2rem;
     align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+
 }
 
 .icon:hover {
     box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 700px) {
     .Hero {
@@ -105,8 +116,7 @@ span{
     }
 
     .image img {
-        margin-right: 0;
-        margin-bottom: 20px;
+        margin: 30px 0 20px 0;
     }
 
     .text {
@@ -114,18 +124,24 @@ span{
     }
 
     .title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .p2 {
         font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .role{
+        width: max-content;
     }
 
     button.download {
-        font-size: 0.875rem;
+        font-size: 1rem;
     }
 
     .icon {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 }

@@ -12,7 +12,7 @@
     background-color: #022350; /* You can change this to match your design */
     z-index: 1000; /* Ensure the loader is above other content */
     opacity: 1;
-    transition: opacity 2s ease-out;
+    transition: opacity 1s ease-out;
   }
   
   .Loader img {

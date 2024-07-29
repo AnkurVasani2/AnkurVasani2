@@ -20,7 +20,7 @@ const Hero = () => {
               words={['Web Developer', 'Backend Developer', 'Python Developer', 'Java Developer', 'App Developer', 'Compititive Programmer']}
               loop={true}
               cursor
-              cursorStyle=">>"
+              cursorStyle="_"
               typeSpeed={50}
               deleteSpeed={50}
               delaySpeed={1500}
@@ -35,7 +35,7 @@ const Hero = () => {
           </button>
         </a>
         <a className='icon' href="https://www.linkedin.com/in/ankurmvasani" target="_blank" rel="noopener noreferrer">
-          <i className="fa-brands fa-linkedin fa-beat" style={{color: "#043fc6"}}></i>
+          <i className="fa-brands fa-linkedin fa-beat" style={{color: "#0077B5"}}></i>
         </a>
         <a className='icon' href="https://github.com/ankurvasani2" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-github fa-beat"></i>
