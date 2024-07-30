@@ -52,7 +52,7 @@
     height: auto;
     margin: 0 10px;
     border-radius: 50px;
-    box-shadow: 20px 0 50px #2026ee, -20px 0 50px #bb00d4;
+    box-shadow: 20px 0 30px #2026ee, -20px 0 30px #bb00d4;
 }
 
 .about-text {
