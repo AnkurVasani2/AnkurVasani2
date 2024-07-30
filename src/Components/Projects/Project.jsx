@@ -3,11 +3,13 @@ import '../Projects/Project.css';
 import chartter_logo from '../../assets/chartter_logo.png';
 import fridgemate_logo from '../../assets/fridgemate.png';
 import ankur from '../../assets/logo_full.png';
+import ezfix from '../../assets/EZfix.png'
 
 const specificRepos = [
   { name: 'chartter', logo: chartter_logo },
   { name: 'FridgeMate', logo: fridgemate_logo },
   { name: 'AnkurVasani2', logo: ankur },
+  { name: 'EZfix', logo: ezfix },
   
 ];
 
@@ -47,6 +49,7 @@ const Project = () => {
             <div className="flipper">
               <div className="front">
                 <img src={getLogoForRepo(project.name)} alt={project.name} className='logo' />
+                <h2>{project.name}</h2>
               </div>
               <div className="back">
                 <p className='project-text'>{project.description}</p>
