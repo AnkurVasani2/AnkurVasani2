@@ -30,11 +30,11 @@ const Contact = () => {
       .then((result) => {
         setLoading(false);
         setFormData({ name: '', email: '', message: '' }); // Clear form data
-        alert('Email sent successfully!');
+        alert('Message sent successfully!');
         console.log(result.text); // For debugging
       }, (error) => {
         setLoading(false);
-        alert('Failed to send email. Please try again.');
+        alert('Failed to send message. Please try again.');
         console.error(error.text); // For debugging
       });
   };
@@ -55,7 +55,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/ankurmvasani" className="icon" target='_blank' rel="noopener noreferrer">
               <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://github.com/ankurvasani_25" className="icon" target='_blank' rel="noopener noreferrer">
+            <a href="https://github.com/ankurvasani2" className="icon" target='_blank' rel="noopener noreferrer">
               <i className="fa-brands fa-github"></i>
             </a>
             <a href="https://www.instagram.com/ankurvasani_25" className="icon" target='_blank' rel="noopener noreferrer">
