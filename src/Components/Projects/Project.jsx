@@ -3,14 +3,13 @@ import '../Projects/Project.css';
 import chartter_logo from '../../assets/chartter_logo.png';
 import fridgemate_logo from '../../assets/fridgemate.png';
 import ankur from '../../assets/logo_full.png';
-import ezfix from '../../assets/EZfix.png'
+import ezfix from '../../assets/EZfix.png';
 
 const specificRepos = [
   { name: 'chartter', logo: chartter_logo },
   { name: 'FridgeMate', logo: fridgemate_logo },
   { name: 'AnkurVasani2', logo: ankur },
   { name: 'EZfix', logo: ezfix },
-  
 ];
 
 const fetchGitHubProjects = async () => {
@@ -42,7 +41,7 @@ const Project = () => {
         <span>Discover my recent</span>
         <h1>Projects</h1>
       </div>
-
+      <span className="span-tooltip">*Click on the card to flip</span>
       <div className="projects">
         {projects.map((project) => (
           <div className="flip-container" key={project.id}>

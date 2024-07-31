@@ -125,13 +125,25 @@
 .project-btns button:last-child {
     margin-right: 0;
 }
-
-@media only screen and (min-width: 768px) {
-    .projects {
-        grid-template-columns: repeat(2, 1fr);
+/* Hide the span-tooltip by default */
+.span-tooltip {
+    display: none;
+  }
+  
+  /* Media query for mobile and tablet devices */
+@media only screen and (max-width: 768px) {
+    .span-tooltip {
+        display: block;
+        text-align: center;
     }
 }
-
+  /* Media query for larger screens to adjust grid layout */
+  @media only screen and (min-width: 768px) {
+    .projects {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
 @media only screen and (min-width: 1024px) {
     .projects {
         grid-template-columns: repeat(3, 1fr);
