@@ -14,13 +14,12 @@ const Hero = () => {
       <div className="text">
         <p className='p1'>Hey, I'm</p>
         <h1 className='title'>Ankur Vasani</h1>
-        <p className="p2">
-          I'm a passionate <span className="role">
+        <p className="p2">&#123; I'm a passionate <span className="role">
             <Typewriter
-              words={['Web Developer', 'Backend Developer', 'Python Developer', 'Java Developer', 'App Developer', 'Compititive Programmer']}
+              words={['Web Developer', 'Flask Developer', 'Python Developer', 'Java Developer', 'App Developer', 'Compititive Programmer']}
               loop={true}
               cursor
-              cursorStyle="_"
+              cursorStyle=" }"
               typeSpeed={50}
               deleteSpeed={50}
               delaySpeed={1500}

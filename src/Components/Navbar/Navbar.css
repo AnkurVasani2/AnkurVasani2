@@ -4,20 +4,27 @@
     font-family: 'Outfit';
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 20px auto;
     position: fixed;
     justify-content: space-between;
     width: 97vw;
     left: 0;
     right: 0;
     top: 0;
-    background: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
     padding: 10px 0;
     height: 100px;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition */
+}
+
+.navbar.hidden {
+    transform: translateY(-100%); /* Hide the navbar by moving it up */
+    opacity: 0; /* Hide the navbar by making it transparent */
 }
 
 .nav-menu {
@@ -30,16 +37,19 @@
     cursor: pointer;
     padding: 0;
     color: white;
+    transition: all 0.3s ease; /* Added transition for smoother effect */
 }
 
 .nav-menu li {
     padding: 0 15px;
 }
-.nav-menu li a{
+
+.nav-menu li a {
     color: white;
+    transition: all 0.3s ease; /* Added transition for smoother effect */
 }
 
-.nav-menu li a:hover{
+.nav-menu li a:hover {
     box-shadow: 20px 0 50px #2026ee, -20px 0 50px #bb00d4;
 }
 
@@ -52,7 +62,7 @@
     font-weight: 800;
     font-size: 20px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: all 0.3s ease; /* Adjusted transition for smoother effect */
     color: white;
     margin-left: 20px; /* Margin adjusted for desktop view */
 }
@@ -67,11 +77,11 @@
     height: auto;
     margin-right: auto;
     margin-left: 50px;
-    transition: 0.5s;
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
 }
 
-.navlogo:hover{
-    transform: scale(1.05);
+.navlogo:hover {
+    transform: scale(1.1); /* Increased scaling for better effect */
 }
 
 /* Hamburger menu styles */
@@ -83,6 +93,11 @@
     cursor: pointer;
     color: white; /* Color for the hamburger icon */
     margin-left: 20px; /* Ensure some spacing from the download button */
+    transition: transform 0.3s ease; /* Smooth toggle button animation */
+}
+
+.nav-toggle:hover {
+    transform: rotate(90deg); /* Rotation effect on hover */
 }
 
 /* Close button styles */
@@ -95,6 +110,11 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    transition: transform 0.3s ease; /* Smooth close button animation */
+}
+
+.nav-close:hover {
+    transform: rotate(90deg); /* Rotation effect on hover */
 }
 
 /* Mobile menu styles */
@@ -108,19 +128,27 @@
         left: 0;
         right: 0;
         background: black;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         margin: 0;
         padding: 0;
         z-index: 1001; /* Ensure menu is above other content */
+        transition: transform 0.3s ease-in-out; /* Added transition for smoother effect */
+        transform: translateY(-100%); /* Initial state for animation */
     }
 
     .nav-menu.active {
         display: flex;
+        transform: translateY(0); /* Animate menu slide-in */
     }
 
     .nav-menu li {
         padding: 10px 0;
         font-size: 20px;
+        transition: transform 0.3s ease; /* Smooth item hover effect */
+    }
+
+    .nav-menu li:hover {
+        transform: scale(1.1); /* Scale effect on hover */
     }
 
     .nav-download {
