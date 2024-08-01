@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on My personal Portfolio Website<br>🤝 I’m looking for help with connections that can help me learn new twchnologies<br>🌱 I’m currently learning Competitive Programming
+🔭 I’m currently working on EZfix<br>🤝 I’m looking for help with connections that can help me learn new twchnologies<br>🌱 I’m currently learning Competitive Programming
 
 
 ## 🌐 Socials:
