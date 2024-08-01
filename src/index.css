@@ -96,7 +96,3 @@ body::before {
   background: linear-gradient(to right, yellow, orange);
   border-radius: 50px;
 }
-
-/* ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to right, yellow, orange);
-} */
