@@ -58,6 +58,7 @@ const About = () => {
               </div>
               <div className="box-content">
                 <ul>
+                  <li><b>B.Tech in Computer Engineering</b><p>SVKM's Dwarkadas J Sanghvi College of Engineering</p></li>
                   <li><b>Diploma in Information Technology</b> - Grade: 94% <p>SVKM's Shri Bhagubhai Mafatlal Polytechnic, Mumbai</p></li>
                   <li><b>SSC</b> - Grade: 80% <p>H.M.P High School Dahanu</p></li>
                 </ul>

@@ -60,6 +60,7 @@ button:focus-visible {
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-image: url("../src/assets/5297139.jpg");
   background-size: cover;
   background-repeat: no-repeat;

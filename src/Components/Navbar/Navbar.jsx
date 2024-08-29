@@ -39,7 +39,7 @@ const Navbar = () => {
           <Link to="hero" smooth={true} duration={500} onClick={toggleMenu}>Home</Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500} onClick={toggleMenu}>About Us</Link>
+          <Link to="about" smooth={true} duration={500} onClick={toggleMenu}>About Me</Link>
         </li>
         <li>
           <Link to="projects" smooth={true} duration={500} onClick={toggleMenu}>Projects</Link>
