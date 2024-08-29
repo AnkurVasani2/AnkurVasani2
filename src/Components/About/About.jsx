@@ -58,7 +58,7 @@ const About = () => {
               </div>
               <div className="box-content">
                 <ul>
-                  <li><b>B.Tech in Computer Engineering</b><p>SVKM's Dwarkadas J Sanghvi College of Engineering</p></li>
+                  <li><b>B.Tech in Computer Engineering</b><p>SVKM's Dwarkadas J Sanghvi College of Engineering, Mumbai</p></li>
                   <li><b>Diploma in Information Technology</b> - Grade: 94% <p>SVKM's Shri Bhagubhai Mafatlal Polytechnic, Mumbai</p></li>
                   <li><b>SSC</b> - Grade: 80% <p>H.M.P High School Dahanu</p></li>
                 </ul>
@@ -66,7 +66,7 @@ const About = () => {
             </div>
           </div>
           <div className="paragraph">
-            <p>Hi, I'm Ankur Vasani, an Information Technology student with a strong background in software development and problem-solving. My academic journey and hands-on experience have honed my skills in developing responsive web applications, mobile apps, RESTful APIs etc. I am passionate about continuous learning and tackling new challenges in technology. My goal is to create impactful, user-centered solutions that drive progress in the tech industry.</p>
+            <p>Hi, I'm Ankur Vasani, a Computer Engineering student with a strong background in software development and problem-solving. My academic journey and hands-on experience have honed my skills in developing responsive web applications, mobile apps, RESTful APIs etc. I am passionate about continuous learning and tackling new challenges in technology. My goal is to create impactful, user-centered solutions that drive progress in the tech industry.</p>
           </div>
         </div>
       </div>
