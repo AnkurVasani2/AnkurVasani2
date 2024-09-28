@@ -4,10 +4,12 @@ import chartter_logo from '../../assets/chartter_logo.png';
 import fridgemate_logo from '../../assets/fridgemate.png';
 import ankur from '../../assets/logo_full.png';
 import ezfix from '../../assets/EZfix.png';
+import streamlit from '../../assets/streamlit.png';
 
 const specificRepos = [
   { name: 'chartter', logo: chartter_logo },
   { name: 'FridgeMate', logo: fridgemate_logo },
+  { name: 'Text_To_SQL', logo: streamlit},
   { name: 'AnkurVasani2', logo: ankur },
   { name: 'EZfix', logo: ezfix },
 ];
