@@ -11,8 +11,10 @@ import image8 from '../../assets/image (8).jpg';
 import image9 from '../../assets/image (9).jpg';
 import image10 from '../../assets/image (10).jpg';
 import image11 from '../../assets/image (11).jpg';
+import image12 from '../../assets/image (12).jpg';
+import image13 from '../../assets/image (13).jpg';
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11];
+const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13];
 
 const About = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
