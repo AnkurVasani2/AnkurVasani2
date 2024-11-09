@@ -5,6 +5,7 @@ import fridgemate_logo from '../../assets/fridgemate.png';
 import ankur from '../../assets/logo_full.png';
 import ezfix from '../../assets/EZfix.png';
 import streamlit from '../../assets/streamlit.png';
+import opportune from '../../assets/Opportune.png'
 
 const specificRepos = [
   { name: 'chartter', logo: chartter_logo },
@@ -12,6 +13,7 @@ const specificRepos = [
   { name: 'Text_To_SQL', logo: streamlit},
   { name: 'AnkurVasani2', logo: ankur },
   { name: 'EZfix', logo: ezfix },
+  { name: 'Opportune', logo: opportune}
 ];
 
 const fetchGitHubProjects = async () => {
