@@ -19,7 +19,7 @@ const publications = [
     conference: "ACM's 2024 Sixteenth International Conference on Contemporary Computing (IC3)",
     date: 'July 1,2024',
     doi: '10.1145/3675888.3676096',
-    link: "https://link.growkudos.com/1p98vljx8g0",
+    link: "https://dl.acm.org/doi/10.1145/3675888.3676096",
     authors: ['Ankur Vasani', 'Om Tanna', 'Krishna Thakkar', 'Malav Gotecha'],
     abstract: "This research proposes an Artificially Intelligent enabled Smart Supermarket System for enhanced efficiency, security and reduces man power as compared to traditional Supermarkets. In order to ensure a perfect omnichannel shopping experience the system uniquely includes an Artificially Intelligent model. Customers can scan items on the go with the app in their smartphones, select product variants as required, add the product to their virtual cart and pay online for the total cart value. With the help of YOLOv5 computer vision algorithm, eliminating long checkout queues and manpower the system proves to be revolutionizing the traditional supermarket procedures. Moreover, the system also incorporates the indoor navigation assistance on customer’s app to facilitate easy access and navigation to preferred items. This futuristic solution not only provides valuable insights for business development but also is proven to be more efficient and helpful for customers saving their time and companies resources.",
     keywords: ['Omnichannel Shopping', 'Computer Vision', 'YOLOv5', 'Artificial Intelligence'],
