@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className='title'>Ankur Vasani</h1>
         <p className="p2">&#123; I'm a passionate <span className="role">
             <Typewriter
-              words={['Web Developer', 'Flask Developer', 'Python Developer', 'Java Developer', 'App Developer', 'Compititive Programmer']}
+              words={['Web Developer', 'Flask Developer', 'Python Developer', 'Java Developer', 'App Developer', 'Backend Developer']}
               loop={true}
               cursor
               cursorStyle=" }"
