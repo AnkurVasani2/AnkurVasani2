@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import self from '../../assets/self.jpg';
-import cv from '../../assets/Resume_Ankur.pdf'; // Import your CV file
+import cv from '../../assets/ankur_resume_.pdf'; // Import your CV file
 import '../Hero/Hero.css'
 
 

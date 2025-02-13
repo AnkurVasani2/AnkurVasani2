@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../Navbar/Navbar.css';
 import { Link } from 'react-scroll';
 import logo from '../../assets/logo_full.png';
-import cv from '../../assets/Resume_Ankur.pdf';
+import cv from '../../assets/ankur_resume_.pdf';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
