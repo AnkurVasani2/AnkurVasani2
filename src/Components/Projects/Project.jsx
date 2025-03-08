@@ -7,6 +7,7 @@ import ezfix from '../../assets/EZfix.png';
 import streamlit from '../../assets/streamlit.png';
 import opportune from '../../assets/Opportune.png';
 import cyclepro from '../../assets/cyclepro.png';
+import StockerBot from '../../assets/stockerbot.jpg'
 
 const specificRepos = [
   { name: 'chartter', logo: chartter_logo },
@@ -15,7 +16,8 @@ const specificRepos = [
   { name: 'AnkurVasani2', logo: ankur },
   { name: 'EZfix', logo: ezfix },
   { name: 'Opportune', logo: opportune},
-  { name: 'CyclePro', logo: cyclepro}
+  { name: 'CyclePro', logo: cyclepro},
+  {name : 'StockerBot', logo: StockerBot }
 ];
 
 const fetchGitHubProjects = async () => {
