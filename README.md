@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Opportune<br>🤝 I’m looking for help with connections that can help me learn new twchnologies<br>🌱 I’m currently learning Competitive Programming
+🔭 I’m currently Research Intern at IIT Mandi x IIT Patna<br>🤝 I’m looking for help with connections that can help me learn new technologies<br>🌱 I’m currently learning Competitive Programming
 
 
 ## 🌐 Socials:
