@@ -48,8 +48,9 @@ const About = () => {
               </div>
               <div className="box-content">
                 <ul>
+                  <li>Research Intern at <b>IIT Mandi x IIT Patna</b></li>
                   <li>Former Intern <b>Adani Power</b> (Web Developer)</li>
-                  <li>Former Intern <b>CodeClause</b> (Python Developer)</li>
+                  {/* <li>Former Intern <b>CodeClause</b> (Python Developer)</li> */}
                 </ul>
               </div>
             </div>
